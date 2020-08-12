@@ -54,6 +54,9 @@ letter-spacing: var(--unnamed-character-spacing-0);
 color: var(--unnamed-color-2f2651);
 font-weight: 600;
 }
+.navbar-dark .navbar-brand {
+  color:#2F2651;
+}
 
 
 .nav-item {

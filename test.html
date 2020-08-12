@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- fonts-->
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200;1,300;1,500;1,600;1,700;1,800&display=swap');
+</style>
+
+<!-- stylesheet -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/css/bootstrap-social.min.css">
+    <link rel="stylesheet" href="CSS/styles.css">
+    <!--using cdn-->
+    <style>
+      .navbar-dark{
+        background: transparent;
+      }
+      body{
+        background-color: red;
+      }
+      .drop_down{
+        display:flex;
+        height: 300px;
+        width:100%;
+        left:200px;
+        font-size:1.7rem;
+      
+      }
+      .navbar-nav {
+        padding-left:200px;
+      }
+.navbar-dark .navbar-nav .nav-link{
+  color: #2F2651;
+}
+      #Navbar .row {
+        display:flex;
+        width: 100%;
+      }
+    </style>
+
+
+  </head>
+  <body>
+
+
+
+
+<div class="pos-f-t">
+  <nav class="navbar navbar-dark" id="all_nav">
+   <div class="container"><a class="navbar-brand brand-name" href="#"><img         src="assets/logo.svg" height="46" width="31.59">    Casecraft</a>
+
+        <span class="nav-item hidden"> Tutorials</span>
+        <span class="nav-item hidden">Download</span>
+        <span class="nav-item hidden">Features</span>
+        <span class="nav-item hidden">FAQs</span>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" id="nav_button">
+    <img src="assets/ham_nav6.png"></button>
+
+      <div class="collapse navbar-collapse drop_down" id="Navbar">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Tutorials</a></li>
+          <li class="nav-item"><a class="nav-link" href="./aboutus.html">Download</a></li>
+         <li class="nav-item"><a class="nav-link" href="#">Features</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contactus.html">FAQs</a></li>
+        </ul>
+       <ul class="navbar-nav mr-auto arrows">
+          <li class="nav-item"><a class="nav-link" href="#"><img src="assets/arrow.png"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="assets/arrow.png"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="assets/arrow.png"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#"><img src="assets/arrow.png"></a></li>
+      </ul>
+
+        </div>
+  </nav>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+<script>
+  $(document).ready(function(){
+    $("#nav_button").click(function(){
+    $('.navbar-dark').css("background-color","#F9F9F9");
+    $('.hidden').hide();
+    });
+    
+  });
+</script>
+  </body>
+</html>
