@@ -107,7 +107,7 @@ color: var(--unnamed-color-2f2651);
 }
 .phone_first{
   position: absolute;
-  top: -70px;
+  top: -95px;
 }
 
 .btn {
@@ -298,60 +298,4 @@ color: var(--unnamed-color-2f2651);
   left:5px;
   padding-top: 60px;
   padding-left:0;
-}
-.unnamed-character-style-1 {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-semibold-italic);
-font-size: var(--unnamed-font-size-60);
-line-height: var(--unnamed-line-spacing-64);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-2f2651);
-}
-.unnamed-character-style-2 {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-semibold-italic);
-font-size: var(--unnamed-font-size-60);
-line-height: var(--unnamed-line-spacing-64);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--primary-color);
-}
-.unnamed-character-style-3 {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-medium-italic);
-font-size: var(--unnamed-font-size-14);
-line-height: var(--unnamed-line-spacing-25);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-a19daf);
-}
-.button-text {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-medium-italic);
-font-size: var(--unnamed-font-size-14);
-line-height: var(--unnamed-line-spacing-18);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-f6f6f9);
-}
-.footer-title {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-medium-italic);
-font-size: var(--unnamed-font-size-16);
-line-height: var(--unnamed-line-spacing-64);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-2f2651);
-}
-.title-2 {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-medium-italic);
-font-size: var(--unnamed-font-size-24);
-line-height: var(--unnamed-line-spacing-29);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-7a7490);
-}
-.base-text {
-font-family: var(--unnamed-font-family-montserrat);
-font-style: var(--unnamed-font-style-italic);
-font-size: var(--unnamed-font-size-20);
-line-height: var(--unnamed-line-spacing-28);
-letter-spacing: var(--unnamed-character-spacing-0);
-color: var(--unnamed-color-7a7490);
 }
